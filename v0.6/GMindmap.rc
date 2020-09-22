@@ -1,0 +1,275 @@
+// Resource file for GMindmap
+// C.Dutoit, 19 Août 2000
+
+// Conventions :
+// 1xxx = French
+// 2xxx = English
+// xxx : 0xx = App
+//       1xx = frmMDI
+//       2xx = frmMap
+//       3xx = frmProperties
+//       4xx = frmAbout
+//       7xx = Dialog messages
+//       8xx = Error messages
+//       9xx = Others
+
+
+
+// French strings
+STRINGTABLE DISCARDABLE
+BEGIN
+
+//----------------------------------[ 1xx : frmMDI ]----------------------------
+	// File Menu 
+	1100	"&Fichier"
+	1101	"&Nouveau"
+	1102	"&Ouvrir..."
+	1103	"&Enregistrer"
+	1104	"Enregistrer &sous..."
+	1105	"Im&porter"
+	1106	"&Fichier texte"
+	1107	"&Exporter"
+	1108	"&Fichier texte"
+	1109	"&Mise en page"
+	1110	"&Imprimer"
+	1111	"&Quitter"
+
+        // Node menu
+	1120	"&Noeud"
+	1121	"&Insérer un fils"
+	1122	"&Supprimer le noeud"
+	1123	"&Afficher les noeuds à position forcée"
+	1124	"&Déforcer toutes les positions forcées"
+
+	// Language menu
+	1140	"&Language"
+	1141	"&Français"
+	1142	"&Anglais"
+
+	// PopupMenu
+	1160	"&Insérer un fils..."
+	1161	"&Supprimer le noeud..."
+
+	// Help menu
+	1180	"&?"
+	1181	"&Index"
+	1182	"&Aide contextuelle"
+	1183	"&Téléchargement du produit"
+	1184	"&A propos de..."
+
+
+
+
+//-------------------------------[ 3xx : frmProperties ]------------------------
+	1300	"Légende"
+	1301	"&Position forcée"
+	1302	"&Ok"
+	1303	"&Annuler"
+	1304	"&Aide"
+	1305	"Propriétés du noeud"
+	1306	"Indice non valide"
+	1307	"Erreur lors de l'édition du noeud..."
+
+
+
+
+//---------------------------------[ 4xx : frmAbout ]---------------------------
+	1400	"Logiciel de création de Mindmap. Téléchargeable sur http://www.home.ch/~spaw4758"
+	1401	"Ce logiciel est en libre accès, cependant, l'auteur, C.Dutoit, se réserve tout droit sur ce logiciel."
+	1402	"&Infos système"
+	1403	"A propos de "
+	1404	"Les informations système ne sont pas disponible actuellement"
+
+
+
+
+
+
+//-----------------------------[ 7xx : Dialog messages ]-----------------------
+	//frmMdi
+	1700	"Voulez-vous enregistrer le fichier actuel ?"
+	1701	"Nouveau fichier"
+	1702	"Enregistrement du mindmap..."
+	1703	"Fichiers G-Mindmap (*.gmm)|*.gmm|Tous les fichiers (*.*)|*.*"
+	1704	"Ouverture d'un mindmap..."
+	1705	"Exportation du mindmap..."
+	1706	"Importation du mindmap..."
+	1707	"Fichiers texte (*.txt)|*.txt|Tous les fichiers (*.*)|*.*"
+        1708    "Le fichier spécifié existe déjà. Voulez-vous l'écraser ?"
+        1709    "Fichier existant"
+	
+	//frmMap
+	1720	"Déforcer la position"
+	1721	"Forcer la position"
+
+	//modImpression
+	1740	"Entrez le nom de l'auteur"
+	1741	"Impression"
+	1742	"Anonyme"
+	
+	//modOperations
+	1760	"Tentative de suppression d'un noeud inexistant"
+	1761	"Erreur..."
+	1762	"Impossible de supprimer le premier noeud..."
+
+
+//------------------------------[ 8xx : Error messages ]-----------------------
+	1800	"L'exportation a echoué"
+	1801	"Erreur à l'exportation..."
+	1802	"L'importation a echoué"
+	1803	"Erreur à l'importation..."
+	
+	//modES
+	1810	"Erreur : le fichier spécifié n'existe pas"
+	1811	"Erreur au chargement"
+	1812	"Erreur : le fichier spécifié n'est pas au bon format"
+	1813	"Erreur lors du chargement du mindmap"
+	1814	"Je tente cependant de continuer..."
+	1815	"Erreur au chargement"
+	1816	"Le fichier a été exporté."
+	1817	"Exportation réussie !"
+
+
+
+//----------------------------------[ 9xx : Others ]----------------------------
+	1900	"Sans titre"
+
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// English strings
+STRINGTABLE DISCARDABLE
+BEGIN
+//----------------------------------[ 1xx : frmMDI ]----------------------------
+
+	// File menu
+	2100	"&File"
+	2101	"&New"
+	2102	"&Open..."
+	2103	"&Save"
+	2104	"Save &as..."
+	2105	"Im&port"
+	2106	"&Text file"
+	2107	"&Export"
+	2108	"&Text file"
+	2109	"P&age setup"
+	2110	"&Print"
+	2111	"&Exit"
+
+
+        // Node menu
+	2120	"&Node"
+	2121	"&Insert a child"
+	2122	"&Delete the node"
+	2123	"&Show all position-forced nodes"
+	2124	"&Unforce all position-forced nodes"
+
+	// Language menu
+	2140	"&Language"
+	2141	"&French"
+	2142	"&English"
+
+	// PopupMenu
+	2160	"&Insert a child..."
+	2161	"&Delete node..."
+
+	// Help menu
+	2180	"&?"
+	2181	"&Index"
+	2182	"&Contextual help"
+	2183	"&Web page of this GMindmap"
+	2184	"&About..."
+
+
+
+
+//-------------------------------[ 3xx : frmProperties ]------------------------
+	2300	"Legend"
+	2301	"&Forced position"
+	2302	"&Ok"
+	2303	"&Cancel"
+	2304	"&Help"
+	2305	"Node properties"
+	2306	"invalid index"
+	2307	"Error on node edition..."
+
+
+
+
+//-----------------------------[ 4xx : frmAbout ]-----------------------
+	2400	"Mindmap creation software. downloadable on http://www.home.ch/~spaw4758"
+	2401	"This software is free but all rights are reserved by the author, C.Dutoit"
+	2402	"&Systeme infos"
+	2403	"About "
+	2404	"System informations are not disponible at this time"
+
+
+
+//-----------------------------[ 7xx : Dialog messages ]-----------------------
+	// frmMDI
+	2700	"Do you want to save the actual mindmap ?"
+	2701	"New file"
+	2702	"Save a mindmap..."
+	2703	"G-Mindmap files (*.gmm)|*.gmm|All files (*.*)|*.*"
+	2704	"Open a mindmap..."
+	2705	"Export a mindmap..."
+	2706	"Import a mindmap..."
+	2707	"Text files (*.txt)|*.txt|All files (*.*)|*.*"
+        2708    "The specified file exist ! Do you want to erase it ?"
+        2709    "Existant file"
+
+	//frmMap
+	2720	"Unforce the position"
+	2721	"Force the position"
+
+	//modImpression
+	2740	"Please enter the author name"
+	2741	"printing"
+	2742	"Anonyme"
+	
+	//modOperations
+	2760	"Impossible to supress an inexistant node"
+	2761	"Error..."
+	2762	"Impossible to supress the first node" 
+
+
+//------------------------------[ 8xx : Error messages ]-----------------------
+	2800	"An error has occured while trying to export datas"
+	2801	"Exportation error..."
+	2802	"An error has occured while trying to import datas"
+	2803	"Importation error..."
+
+
+	//modES
+	2810	"The specified file doesn't exist"
+	2811	"Loading error"
+	2812	"The specified file has not the right file format"
+	2813	"Error while loading the mindmap"
+	2814	"I try to continue..."
+	2815	"Loading error"
+	2816	"The file has been succesfuly exported"
+	2817	"The exportation has succeeded !"
+
+
+
+//----------------------------------[ 9xx : Others ]----------------------------
+	2900	"Untitled"
+
+
+END

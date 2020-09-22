@@ -1,0 +1,12 @@
+frmMap = 161, 161, 644, 543, , 23, 23, 509, 405, 
+frmMDI = 115, 115, 601, 497, , 69, 69, 555, 451, 
+modMap = 0, 0, 0, 0, C
+modOperations = 0, 0, 0, 0, C
+frmAbout = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+modES = 92, 92, 669, 474, 
+modMain = 0, 0, 0, 0, C
+modImpression = 0, 0, 0, 0, C
+modEcriture = 0, 0, 0, 0, C
+frmProperties = 0, 0, 0, 0, C, 69, 69, 552, 451, Z
+modDeplacements = 46, 46, 532, 428, 
+modLanguage = 92, 92, 578, 474, 
